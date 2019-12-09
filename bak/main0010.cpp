@@ -12,6 +12,8 @@ int expandAroundCenter(std::string s, int left, int right) {
     return R - L - 1;
 }
 
+//起始位置和结束位置
+
 std::string longestPalindrome(std::string s) {
     if (s.size()==0 || s.length() < 1){
 		return "";
@@ -29,6 +31,7 @@ std::string longestPalindrome(std::string s) {
     }
     return s.substr(start, end+1);
 }
+
 
 int main(int argc,char*argv[])
 {

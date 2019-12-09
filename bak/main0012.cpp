@@ -17,6 +17,7 @@
 *编译
 *g++ main0012.cpp -std=c++11
 */
+
 std::vector<int> twosum(std::vector<int>&nums,int target)
 {
 	std::vector<int> tmp;
@@ -32,6 +33,8 @@ std::vector<int> twosum(std::vector<int>&nums,int target)
 	}
 	return tmp;
 }
+
+
 
 int main(int argc,char*argv[])
 {

@@ -43,8 +43,8 @@ void quicksort(int *a,int low,int high)
 	if(low >= high){
 		return;
 	}
-	while(low < high){
-		
+	
+	while(low < high){	
 		while(low<high && key <= a[high]){
 			--high;
 		}
